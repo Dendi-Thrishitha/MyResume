@@ -1,0 +1,109 @@
+.container-fluid {
+    padding: 0;
+  }
+  
+  .projects {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start; /* Aligns image-text pairs to the left */
+    padding: 20px;
+  }
+  
+  .image-text-pair {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .image-text-pair img {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-title {
+    font-weight: bold;
+    color: #6e6e6e; /* Dark grey for title */
+    margin: 0;
+  }
+  
+  .image-description {
+    color: #a9a9a9; /* Light grey for text */
+    font-size: 0.9em;
+    margin: 4px 0 0;
+  }
+  .project-text ul {
+    padding-left: 20px;
+    list-style-type: disc; /* Bullet points */
+    margin-top: 10px;
+  }
+  
+  .project-text li {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  .projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between project cards */
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px; /* Fixed card width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-text {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .project-text h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-text p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+  }
+    
