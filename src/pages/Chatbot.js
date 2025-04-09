@@ -8,7 +8,7 @@ const Chatbot = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/Resume.pdf"; // Path to the PDF in the public folder
-    link.download = "Resume.pdf"; // The name for the downloaded file
+    link.download = "Thrishitha_Resume_2025.pdf"; // The name for the downloaded file
     link.click(); // Trigger the download
   };
 
